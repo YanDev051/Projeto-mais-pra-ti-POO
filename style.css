@@ -1,0 +1,108 @@
+*{
+    margin:0;
+}
+body{
+    background-color: rgba(92, 90, 89, 0.767);
+    background-image:url(img/pexels-george-becker-374918.jpg);
+    font: normal 15pt arial;
+}
+header{
+    
+    padding:10px ;
+    color:rgb(141, 138, 138);
+    text-align: center;
+}
+.titulo{
+    color:#b6b3b3;
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+   
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+    color:#b6b3b3
+
+}
+input{
+    padding: 10px;
+    border: 1px solid #918d8d;
+    border-radius: 4px;
+    outline:0;
+   
+
+}
+
+button{
+    border: 3px #504c4c;
+    background-color: #b6b3b3;
+    padding: 10px;
+    outline:0;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+
+}
+
+button:hover{
+    background-color: #dad6d6;
+}
+.conteudo{
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    border:1px solid #1f1d1d;
+    background-color: rgb(255, 255, 255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+   
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+    
+
+
+}
+table th{
+    background-color: rgb(255, 255, 255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+   
+    
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+    
+}
+table td{
+    padding:1px 5px;
+    text-align: left;
+    color:#b6b3b3
+}
+
+table td img{
+    width: 16px;
+    
+    
+}
+.center{
+    text-align: center;
+}

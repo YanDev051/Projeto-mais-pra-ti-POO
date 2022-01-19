@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+    
+    <title>Cadastro de Nota</title>
+
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Notas </h1>
+    </header>
+
+
+    <main>
+        <div class="titulo">
+            <h2>Alunos</h2>
+            <span>Aqui vamos cadastras as notas dos alunos e seus dados </span>
+
+        </div>
+   
+        <div class="card">
+            <div class="lineInput">
+                <label>Aluno</label>
+                <input type="text"  id="nomeAluno" placeholder="Insira o nome do Aluno">
+
+            </div>
+            <div class="lineInput">
+                <label>Nota</label>
+                <input type="number"  id="nota" placeholder="Nota do aluno">
+
+            </div>
+
+            <div class="lineInput">
+                <label>Idade do Aluno</label>
+                <input type="number"  id="idade" placeholder="Idade do Aluno" >
+
+            </div>
+
+        <button onclick="aluno.salvar()" id="btn1">Salvar</button>
+        <button onclick="aluno.cancelar()">Cancelar</button>
+    </div>
+    <div class="conteudo">
+        <table border="2">
+            <thead class="center">
+                <th>ID</th>
+                <th>Nome Aluno</th>
+                <th>Nota</th>
+                <th>Idade</th>
+                <th>Ações</th>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>
+
+    </div>
+    
+    </main>
+    <footer style="color:white;text-align:center;">
+        <p>&copy;YanDev051 Desenvolvimento</p>
+    </footer>
+</body>
+
+</html>
